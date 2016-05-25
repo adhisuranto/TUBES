@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+	<title>Kuliner Indonesia</title>
+	<meta name="description" content="The plugin will detect your mouse wheel and swipe gestures to determine which way the page should scroll." />
+	<meta name="keywords" content="scroller, jquery one page scroll, onepagescroll, animated scrolling" />
+ 
+
+	<script type="text/javascript" src="http://code.jquery.com/jquery-1.9.1.js"></script>
+	<script type="text/javascript" src="js/jquery.onepage-scroll.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/onepage-scroll.css" />
+	
+	<link href='http://fonts.googleapis.com/css?family=Righteous' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Voltaire' rel='stylesheet' type='text/css'>
+
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	
+	<header>
+		<img src="img/piring.png" alt="logo twd mini" class="logomini">
+		<h1><a href="">Kuliner Indonesia</a></h1>
+	</header>
+	<div class="main">
+		
+		<section class="page one">
+			<div class="page-container">
+			<h2>Berbagai menu tradisional nusantara</h2>
+			<p>Dengan dikenalnya indonesia dengan berbagai menu tradisional yang enak maka kami menyediakan hidangan dengan citarasa khas indonesia</p>
+				<p><small><a href="">&laquo; lihat daftar menu yang tersedia hari ini</a> | <a href="index2.html">Menu Hidangan</a></small></p>
+			</div>
+		</section>
+		
+		<section class="page two">
+			<div class="page-container">
+				<h2>Dengan bahan-bahan masakan yang masih segar</h2>
+				<p>Untuk tidak membuat tita rasanya berubah kami menyediakan bahan-bahan yang segar untuk membuat hidangan lebih sehat dan higenis</p>
+			</div>
+		</section>
+		
+		<section class="page three">
+			<div class="page-container">
+				<h2>Delivery</h2>
+				<p>Untuk kemudahan pelanggan mendapankan hidangan yang kami sediakan, kami menyediakan layanan pesan antar untuk daerah yang terjangkau.</p>
+		</section>
+
+	</div>
+
+	<script type="text/javascript">
+	$(".main").scroll_laman({
+		sectionContainer: "section",
+	});
+	</script>
+
+</body>
+</html>
